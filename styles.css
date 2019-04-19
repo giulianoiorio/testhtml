@@ -1,0 +1,82 @@
+h1 {
+    color:blue;
+    text-align: center;
+}
+
+h2 {
+
+  color :#4fa863; <!-- color -->
+  text-align: left; <!-- alignment -->
+
+}
+
+/* DIV IS LIKE A TEXT BLOCK */
+div {
+
+ <!-- FONT STAFF -->
+ color :#234d51;
+ font-weight: bold;
+ font-family: Arial;
+ font-size: 23px;
+
+ <!-- border around text -->
+ border: 3px solid blue;
+ border: 2px dotted red;
+
+ text-align: center;
+
+background-color:  lightblue;
+
+}
+
+
+/* NBBBB id as #top should be unique */
+
+#top {
+color : black;
+ font-size: 25px;
+
+}
+
+#bottom {
+
+ font-size: 30px;
+
+}
+
+
+.name1 {
+
+  color : red;
+
+}
+
+.name2 {
+
+  color : red;
+  font-style: italic;
+  text-decoration: underline;
+
+}
+
+/* PUT BORDER on TABLE */
+table {
+border: 2px solid black;
+ border-collapse: collapse; /*To remove double line */
+ width: 30%; /*WIdth % it can adapt to the page*/
+ height: 30%; /*WIdth % it can adapt to the page*/
+}
+
+/* PUT BORDER on TABLE header and row, applyt to both */
+
+th, td{
+  border: 1px solid black;
+}
+
+th{
+  background-color:  lightgray;
+}
+
+p {
+  color : purple;
+}
